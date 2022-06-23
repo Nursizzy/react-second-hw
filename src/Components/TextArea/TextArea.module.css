@@ -3,6 +3,22 @@
   flex-direction: column;
 }
 
+.label {
+  display: flex;
+  justify-content: space-between;
+}
+
 h1 {
   margin: 0;
+}
+
+.maxChar {
+  font-size: 0.8rem;
+  align-self: flex-end;
+}
+
+.errorMessage {
+  font-size: 0.8rem;
+  color: #fc929e;
+  align-self: flex-end;
 }
